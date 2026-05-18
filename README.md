@@ -142,6 +142,4 @@ Currently exploring:
 
 ## 📫 Connect
 
-- LinkedIn: [Add Link]
-- Email: [Add Email]
-- GitHub Projects: [Add Link]
+- LinkedIn: https://www.linkedin.com/in/lophiso-feleke/
