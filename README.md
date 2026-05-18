@@ -43,7 +43,7 @@ C --> D[ML Ensemble]
 D --> E[Anomaly Detection]
 ```
 
-🔗 Repository: [Add Link]
+🔗 Repository: https://github.com/Lophiso/autoencoder-anomaly-detection
 
 ---
 
