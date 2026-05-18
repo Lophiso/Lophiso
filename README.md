@@ -1,74 +1,147 @@
-## Technical Proficiencies
+# Hi, I'm Lophiso 👋
 
-**Data Engineering**
-* **Languages & Core:** Python (Advanced), SQL, NoSQL, Bash scripting
-* **Frameworks & Libraries:** pandas, NumPy
-* **Processes & Formats:** ETL design, Parquet, JSON, CSV
-* **Networking & Tools:** tshark, tcpdump, Git, CI/CD pipelines
+ML Engineer & Data Engineer focused on real-time anomaly detection, network telemetry analytics, and infrastructure-aware machine learning systems.
 
-**Machine Learning & Analytics**
-* **Models & Algorithms:** XGBoost, Isolation Forest, Random Forest, LSTM Autoencoders
-* **Frameworks:** PyTorch, Scikit-learn
-* **Domains:** Natural Language Processing (NLP), Time-Series Analysis, Anomaly Detection
-
-**Cloud & IT Infrastructure**
-* **Containerization & Orchestration:** Kubernetes, Docker, Helm
-* **Cloud Services:** AWS (EC2, S3)
-* **Networking & OS:** MetalLB, Linux/Unix environments
+Currently researching anomaly detection on live 5G infrastructure at the University of Genoa.
 
 ---
 
-## Experience
+## 🚀 What I Work On
 
-### ML Engineer & Data Researcher · Master's Thesis
-**DITEN Lab — University of Genoa** | *Oct. 2024 – Present*
-* **Data Pipelines:** Designed end-to-end Python ETL pipelines (pandas, NumPy) to ingest, clean, and normalise high-frequency HTTP/2 and PFCP network flows extracted via tshark from containerised 5G Network Functions.
-* **ML & Analytics:** Built and validated a 3-model ensemble (XGBoost, Isolation Forest, PyTorch LSTM Autoencoder) for anomaly classification on live telemetry; applied Youden's J statistic for data-driven threshold selection.
-* **IT Infrastructure:** Deployed and managed containerised workloads via Docker and Kubernetes; handled resource constraints, cross-namespace DNS resolution, and OOM debugging.
-
-### Data Pipeline Engineer
-**Widecons** | *Sep. 2024 – Mar. 2025*
-* Engineered automated Python ingestion pipelines for high-frequency hardware sensor telemetry into SQL/NoSQL databases.
-* Maintained data integrity and structured documentation across cross-functional engineering teams via Git.
-* Delivered reliable, version-controlled data foundations supporting downstream predictive maintenance workflows.
-
-### International Support Specialist
-**University of Genoa — Welcome Office** | *Sep. 2022 – Sep. 2024*
-* Standardised triage workflows and produced structured operational reports.
-* Managed autonomous issue resolution and precision under high-volume, multi-stakeholder conditions.
+- Real-time telemetry anomaly detection
+- ML systems for network infrastructure
+- High-frequency ETL/data pipelines
+- Kubernetes-based ML deployment
+- Time-series analytics & forecasting
+- Infrastructure observability
 
 ---
 
-## Education
+## 🧠 Featured Projects
+
+### Autonomous System Anomaly Detection
+**Python • PyTorch • XGBoost • Time-Series ML**
+
+Built a modular anomaly detection pipeline for autonomous systems using multivariate IMU/GPS telemetry.
+
+#### Highlights
+- Simulated GPS spoofing and packet-drop attack scenarios
+- Built configurable synthetic anomaly injection framework
+- Developed ensemble detection pipeline using:
+  - XGBoost
+  - Isolation Forest
+  - LSTM Autoencoder
+- Automated threshold optimization using Youden’s J statistic
+
+#### Pipeline Architecture
+
+```mermaid
+flowchart LR
+A[Telemetry Data] --> B[Python ETL]
+B --> C[Feature Engineering]
+C --> D[ML Ensemble]
+D --> E[Anomaly Detection]
+```
+
+🔗 Repository: [Add Link]
+
+---
+
+### 5G Telemetry Anomaly Detection — Master's Thesis
+**Python • Kubernetes • Docker • PyTorch**
+
+Designed an end-to-end ML pipeline for live HTTP/2 and PFCP telemetry anomaly detection.
+
+#### Key Contributions
+- Built high-frequency ETL pipelines using pandas & NumPy
+- Processed live network telemetry streams
+- Containerized ML workloads using Docker & Kubernetes
+- Optimized deployment for constrained infrastructure environments
+- Applied ensemble anomaly classification techniques
+
+---
+
+### Telemetry Data Pipeline Engineering
+**Python • SQL/NoSQL • ETL**
+
+Engineered automated ingestion pipelines for hardware sensor telemetry and predictive maintenance systems.
+
+#### Focus Areas
+- High-frequency ingestion workflows
+- Structured telemetry normalization
+- Version-controlled data foundations
+- Reliability-focused pipeline design
+
+---
+
+## 🛠 Tech Stack
+
+### Machine Learning
+`PyTorch` `Scikit-learn` `XGBoost` `Isolation Forest`
+`LSTM Autoencoders` `NLP` `Time-Series Analysis`
+
+### Data Engineering
+`Python` `SQL` `NoSQL`
+`pandas` `NumPy`
+`ETL Pipelines` `Parquet` `JSON`
+
+### Infrastructure & Cloud
+`Docker` `Kubernetes` `Helm`
+`Linux` `AWS EC2` `AWS S3`
+
+### Networking & Systems
+`HTTP/2` `PFCP`
+`tshark` `tcpdump`
+`CI/CD`
+
+---
+
+## 📚 Education
 
 ### M.Sc. Internet & Multimedia Engineering
-**University of Genoa** | *Sep. 2023 – Expected Jul. 2026*
-* **Focus:** Applied Machine Learning, Big Data Architectures, Distributed Systems, IT Security.
-* **Thesis:** ML anomaly detection pipeline on live 5G network infrastructure — full cycle from raw data ingestion to real-time model inference.
+**University of Genoa**  
+*2023 — Expected Jul. 2026*
 
-### B.Sc. Electronics and Communication Engineering
-**Adama Science and Technology University** | *Sep. 2016 – Sep. 2021*
-* **Honors:** High Honors (CGPA: 3.80/4.00)
+Focus:
+- Applied Machine Learning
+- Big Data Architectures
+- Distributed Systems
+- IT Security
 
----
-
-## Selected Projects
-
-### Autoencoder Anomaly Detection — Autonomous Systems
-*Python, PyTorch, XGBoost, pandas* | [View Repository](https://github.com/Lophiso/autoencoder-anomaly-detection)
-* Processed multivariate IMU/GPS time-series (Udacity Self-Driving Dataset); simulated GPS spoofing and packet-drop attack scenarios.
-* Developed a modular production codebase with configurable sliding windows, synthetic anomaly injection, and automated threshold optimisation.
+Research:
+> ML anomaly detection on live 5G infrastructure.
 
 ---
 
-## Certifications & Languages
+## 📜 Certifications
 
-**Certifications:**
-* Kubernetes for the Absolute Beginners — Hands-on *(Udemy, Oct. 2025)*
-* Privacy & Personal Data Protection - GDPR *(University of Genoa, Aug. 2024)*
-* ISC2 Candidate — Cybersecurity & Network Security *(ISC2, Jul. 2024)*
+- Kubernetes for Absolute Beginners
+- Privacy & Personal Data Protection (GDPR)
+- ISC2 Candidate — Cybersecurity & Network Security
 
-**Languages:**
-* **English:** Professional / Fluent
-* **Italian:** A2 Certified
-* **Amharic:** Native
+---
+
+## 🌍 Languages
+
+- English — Professional / Fluent
+- Italian — A2
+- Amharic — Native
+
+---
+
+## 📈 Current Focus
+
+Currently exploring:
+- Adaptive anomaly thresholds
+- Real-time streaming ML systems
+- Telemetry observability pipelines
+- Infrastructure-aware ML deployment
+- Distributed inference systems
+
+---
+
+## 📫 Connect
+
+- LinkedIn: [Add Link]
+- Email: [Add Email]
+- GitHub Projects: [Add Link]
