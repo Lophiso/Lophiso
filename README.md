@@ -1,16 +1,17 @@
-## Hi there 👋
+## Technical Proficiencies
 
-<!--
-**Lophiso/Lophiso** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Data Engineering**
+* **Languages & Core:** Python (Advanced), SQL, NoSQL, Bash scripting
+* **Frameworks & Libraries:** pandas, NumPy
+* **Processes & Formats:** ETL design, Parquet, JSON, CSV
+* **Networking & Tools:** tshark, tcpdump, Git, CI/CD pipelines
 
-Here are some ideas to get you started:
+**Machine Learning & Analytics**
+* **Models & Algorithms:** XGBoost, Isolation Forest, Random Forest, LSTM Autoencoders
+* **Frameworks:** PyTorch, Scikit-learn
+* **Domains:** Natural Language Processing (NLP), Time-Series Analysis, Anomaly Detection
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Cloud & IT Infrastructure**
+* **Containerization & Orchestration:** Kubernetes, Docker, Helm
+* **Cloud Services:** AWS (EC2, S3)
+* **Networking & OS:** MetalLB, Linux/Unix environments
